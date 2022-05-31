@@ -1,7 +1,7 @@
 import csv
 from datetime import date
 #reads two quotes and returns two lists containing dictionaries of line Items
-def readQuotes(q1FilePath, q2FilePath):
+def read_quotes(q1FilePath, q2FilePath):
     with open(q1FilePath, "r") as f:
         csv_reader = csv.DictReader(f)
         vendorQuote  = list(csv_reader)
@@ -15,7 +15,7 @@ def readQuotes(q1FilePath, q2FilePath):
     return vendorQuote, originalQuote
 
 
-def exportQuoteDifferences(originalQuote, orderInformation, quote_differences, vendorQuote):
+def export_quote_differences(originalQuote, orderInformation, quote_differences, vendorQuote):
     #export the quotes and differences
     #Getting the Keys of the file to use as headers
     q1Keys = originalQuote[0].keys()
