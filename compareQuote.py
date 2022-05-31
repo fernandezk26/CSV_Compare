@@ -2,12 +2,12 @@ import csv
 from datetime import date
 import quoteComparisonFunctions as qc
 
-# initializing list 
+# initializing list  
 orderInformation = {"Order Number": "12345", "Date": "04/22/22", "Customer PO #" : "1234-5678"}
 
 #read the quotes
-test = qc.readQuotes(q1FilePath="./testFiles/vendor.csv", q2FilePath="./testFiles/original.csv")
-vendorQuote, originalQuote = test
+readQuotesResult = qc.readQuotes(q1FilePath="./testFiles/vendor.csv", q2FilePath="./testFiles/original.csv")
+vendorQuote, originalQuote = readQuotesResult
 
 #compare the quotes
 quote_differences = qc.compareQuotes(q1 = vendorQuote, q2 = originalQuote)
