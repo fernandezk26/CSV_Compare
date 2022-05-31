@@ -1,0 +1,5 @@
+Item Code,Item Description,Quantity Ordered,Quantity Shipped,Unit MSRP/Base Prov.,Terms Disc/Unit,Total Net Value
+K1234,Jazzy chair E9999,1,0,$500 ,$400 ,$400 
+Q6,Leg Rest K0000,1,0,350,$300 ,$50 
+72-1234,Cushion K0108,1,0,"$1,000 ",$500 ,$500 
+ITEM NOT IN QUOTE 1,ITEM NOT IN QUOTE 1,1,0,"$1,000 ",$500 ,$500 
