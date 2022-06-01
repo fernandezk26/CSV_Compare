@@ -8,4 +8,4 @@ file1, file2 = readFilesResult
 file_differences = c.compare_csv_files(file1 = file1, file2 = file2)
 
 #export the results
-c.export_quote_differences(file1=file1, file2=file2, file_differences=file_differences)
+c.export_file_differences(file1=file1, file2=file2, file_differences=file_differences)

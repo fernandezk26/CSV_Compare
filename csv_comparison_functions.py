@@ -26,7 +26,7 @@ def compare_csv_files(file1, file2):
 
 
 #exports the differences to a new spreadsheet, along with the original info for reference
-def export_quote_differences(file1, file_differences, file2):
+def export_file_differences(file1, file_differences, file2):
     #export the quotes and differences
     #Getting the Keys of the file to use as headers
     q1Keys = file1[0].keys()
