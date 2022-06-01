@@ -1,5 +1,5 @@
 import quote_comparison_functions as qc
-import csv_functions as c
+import quote_comparison_csv_functions as c
 
 # initializing list  
 orderInformation = {"Order Number": "12345", "Date": "04/22/22", "Customer PO #" : "1234-5678"}
