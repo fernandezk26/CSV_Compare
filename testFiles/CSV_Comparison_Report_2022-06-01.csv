@@ -1,0 +1,21 @@
+CSV File 1
+Item Code,Item Description,Quantity Ordered,Quantity Shipped,Unit MSRP/Base Prov.,Terms Disc/Unit,Total Net Value
+K1234,Jazzy chair E9999,1,0,$500 ,$400 ,$400 
+Q6,Leg Rest K0000,1,0,350,$300 ,$50 
+72-1234,Cushion K0108,1,0,"$1,000 ",$500 ,$500 
+ITEM NOT IN QUOTE 1,ITEM NOT IN QUOTE 1,1,0,"$1,000 ",$500 ,$500 
+
+CSV File 2
+Item Code,Item Description,Quantity Ordered,Quantity Shipped,Unit MSRP/Base Prov.,Terms Disc/Unit,Total Net Value
+K1234,Jazzy chair E9999,1,0,"$5,000 ",$400 ,$400 
+Q6,Leg Rest K0000,1,0,350,$300 ,$50 
+J732,Wheels E1234,1,0,$20 ,$10 ,$10 
+72-1234,Cushion K0108,1,0,"$1,000 ",$500 ,$500 
+1234556,Misc part K010,1,0,$3 ,$1 ,$2 
+
+File Differences
+Item Code,Item Description,Quantity Ordered,Quantity Shipped,Unit MSRP/Base Prov.,Terms Disc/Unit,Total Net Value
+K1234,Jazzy chair E9999,1,0,$500 ,$400 ,$400 
+72-1234,Cushion K0108,1,0,"$1,000 ",$500 ,$500 
+ITEM NOT IN QUOTE 1,ITEM NOT IN QUOTE 1,1,0,"$1,000 ",$500 ,$500 
+,,,,,,
